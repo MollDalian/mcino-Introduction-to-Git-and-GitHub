@@ -1,0 +1,5 @@
+curl -s https://api.github.com/repos/MollDalian/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"' | head -3
+
+  "full_name": "MollDalian/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
